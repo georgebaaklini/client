@@ -5,6 +5,7 @@ const Projects = () => {
   return (
     <Div id="projects">
       <img src={meImage} alt="me"></img>
+      <p>Hiiiii</p>
     </Div>
   );
 };
