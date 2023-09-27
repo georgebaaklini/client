@@ -1,9 +1,12 @@
 import "./Header.css";
+import logo from "./logo.png"
 
 const Header = () => {
   return (
+    
+      
     <header className="header">
-      <h1 className="header-title">Your Name</h1>
+        <img src={logo} alt="logo" className="logo"/>
       <nav className="header-nav">
         <a href="#home" className="nav-link">
           Home

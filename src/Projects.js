@@ -1,16 +1,14 @@
-import styled from "styled-components";
-import meImage from "./me.jpg";
+import { styled } from "styled-components";
 
 const Projects = () => {
-  return (
+  return(
     <Div id="projects">
-      <img src={meImage} alt="me"></img>
-      <p>Hiiiii</p>
+      <p>Perfect Eleven</p>
     </Div>
-  );
+  )
 };
 export default Projects;
 
 const Div = styled.div`
-  margin-top: 1000px;
-`;
+color:white
+`
