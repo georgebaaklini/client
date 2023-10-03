@@ -1,0 +1,128 @@
+#projects {
+  height: 100vh;
+}
+.projects-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 50px;
+}
+
+.project1 {
+  display: flex;
+  align-items: center;
+}
+
+.projects-container h1 {
+  margin-bottom: 50px;
+}
+
+.project1-description {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 20px;
+  max-width: 750px;
+}
+
+.project1-text {
+  font-size: 16px;
+}
+
+.project1-tech {
+  margin-left: 20px;
+}
+
+.api-note {
+  font-size: 14px;
+  opacity: 0.7;
+  margin-top: 10px;
+}
+
+.github-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1a1a1a;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.github-button:hover {
+  background-color: #555;
+}
+
+.demo {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 768px) {
+  .project1 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .demo {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .project1-description {
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .project1-tech {
+    margin-left: 0;
+    text-align: left;
+    gap: 10px;
+    list-style-position: inside;
+  }
+
+  .github-button {
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .project1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .demo {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .project1-description {
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .project1-tech {
+    margin-left: 0;
+    text-align: left;
+    gap: 10px;
+  }
+
+  .github-button {
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

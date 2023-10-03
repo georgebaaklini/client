@@ -1,18 +1,45 @@
-import { styled } from "styled-components";
+import "./About.css";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs } from "react-icons/fa6";
 
-const About = () =>{
-    return(
-        <Div>
-            <p>
-                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-            </p>
-        </Div>
-    )
-}
+const About = () => {
+  return (
+    <div id="about">
+      <div className="about-content">
+        <h1>
+          <span>About</span>
+        </h1>
+        <div className="text-container">
+          <p className="about-text">
+            My name is George Baaklini. Although my roots trace back to the rich
+            heritage of Lebanon, I've ventured far and wide in the world of web
+            development. I am a proud graduate of Concordia University's Full
+            Stack Web Development Bootcamp. There, I immersed myself in the
+            depths of JavaScript, React, Node.js, Express, and MongoDB. With
+            these tools under my belt, I'm equipped to craft dynamic and robust
+            web applications. I have a particular passion for teamwork,
+            believing that the best applications are created when brilliant
+            minds come together.
+          </p>
+          <div className="icons-container">
+            <FaHtml5 className="icons" />
+            <FaCss3Alt className="icons" />
+            <FaJs className="icons" />
+            <FaReact className="icons" />
+            <FaNodeJs className="icons" />
+          </div>
+          <DownloadButton />
+        </div>
+      </div>
+    </div>
+  );
+
+  function DownloadButton() {
+    return (
+      <a href="/GeorgeCV.pdf" download className="download-button">
+        Download my CV
+      </a>
+    );
+  }
+};
 
 export default About;
-
-const Div = styled.div`
-color:white;
-margin-bottom: 1000px;
-`

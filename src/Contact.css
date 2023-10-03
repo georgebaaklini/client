@@ -1,0 +1,70 @@
+.contact-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  box-sizing: border-box;
+  margin-bottom: 135px;
+  padding: 0 20px;
+}
+
+.email,
+.linkedin,
+.github {
+  width: 35px;
+  height: 35px;
+  transition: transform 0.3s ease;
+}
+
+.email:hover,
+.linkedin:hover,
+.github:hover {
+  transform: scale(1.1);
+}
+
+.socials {
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.socials a {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.socials a:hover {
+  color: #ddd;
+}
+
+.socials a:visited {
+  color: white;
+}
+
+.contact-text {
+  margin-top: 20px;
+  max-width: 800px;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 320px) {
+  .contact-container {
+    margin-top: 250px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contact-container {
+    margin-top: 250px;
+  }
+}
