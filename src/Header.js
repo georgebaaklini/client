@@ -15,7 +15,7 @@ const Header = () => {
       <img src={logo} alt="logo" className="logo" />
       <div className="header-content">
         <nav className={showMenu ? "header-nav mobile" : "header-nav"}>
-          <a href="#" className="nav-link">
+          <a href="#hero" className="nav-link">
             Home
           </a>
           <a href="#about" className="nav-link">

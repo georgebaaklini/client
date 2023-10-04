@@ -5,7 +5,7 @@ import { FaAnglesDown } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className="hero-container">
+    <div className="hero-container" id="hero">
       <div className="hero-content">
         <div className="hero-text">
           <p className="name">
