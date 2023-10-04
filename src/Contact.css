@@ -1,3 +1,10 @@
+#contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact-container {
   color: white;
   display: flex;
@@ -54,17 +61,5 @@
 @media (max-width: 768px) {
   .contact-container {
     margin-top: 150px;
-  }
-}
-
-@media (max-width: 320px) {
-  .contact-container {
-    margin-top: 250px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .contact-container {
-    margin-top: 250px;
   }
 }

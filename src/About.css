@@ -69,4 +69,8 @@ h1 {
   .download-button {
     white-space: nowrap;
   }
+
+  .about-content {
+    margin-bottom: 200px;
+  }
 }
