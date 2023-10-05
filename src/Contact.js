@@ -15,7 +15,7 @@ const Contact = () => {
           forward to hearing from you!
         </p>
         <div className="socials">
-          <a href="https://www.linkedin.com/in/george-baaklini-912b9a273/">
+          <a href="https://www.linkedin.com/in/georgebaaklini-dev/">
             <FaLinkedinIn className="linkedin" />
           </a>
           <a href="https://github.com/georgebaaklini">
