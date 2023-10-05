@@ -51,10 +51,15 @@
 
 .learn-more a {
   color: white;
+  transition: transform 0.3s ease;
 }
 
 .learn-more a:visited {
   color: white;
+}
+
+.learn-more a:hover {
+  transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
