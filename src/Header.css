@@ -78,8 +78,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
-    z-index: 999; /* ensure it's below the menu but above everything else */
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
   }
 
   .header-nav.mobile {
@@ -88,10 +88,10 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 70%; /* or any preferred width */
+    width: 70%;
     height: 100vh;
     background-color: #1a1a1a;
-    z-index: 1000; /* ensure it's above the overlay */
+    z-index: 1000;
     padding-top: 20px;
     align-items: center;
     transition: transform 0.3s ease;
@@ -99,7 +99,6 @@
     margin: 0;
   }
 
-  /* Hide the mobile menu when not active */
   .header-nav:not(.mobile) {
     transform: translateX(100%);
   }
