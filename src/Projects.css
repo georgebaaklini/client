@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0px 50px;
+  margin: 0px 50px 20px 50px;
 }
 
 .project1 {
@@ -19,6 +19,7 @@
 
 .projects-container h1 {
   margin-bottom: 50px;
+  margin-top: 0;
 }
 
 .project1-description {
