@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import georgepic from "./images/me.png";
+import { FaAnglesDown } from "react-icons/fa6";
 
 const Hero = () => {
   return (
@@ -19,6 +20,12 @@ const Hero = () => {
         <div className="image-container">
           <img src={georgepic} alt="me" className="image" />
         </div>
+      </div>
+      <div className="learn-more">
+        <p>Get to know me!</p>
+        <a href="#about">
+          <FaAnglesDown className="arrow" />
+        </a>
       </div>
     </div>
   );

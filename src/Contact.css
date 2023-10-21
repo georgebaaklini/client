@@ -12,7 +12,6 @@
   align-items: center;
   text-align: left;
   box-sizing: border-box;
-  margin-bottom: 135px;
   padding: 0 20px;
 }
 
@@ -59,7 +58,7 @@
 }
 
 @media (max-width: 768px) {
-  .contact-container {
-    margin-top: 150px;
+  #projects {
+    height: auto;
   }
 }

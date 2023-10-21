@@ -11,11 +11,15 @@ body{
 
 html{
   scroll-behavior: smooth;
-  scroll-padding-top: 75px;
 }
 body, html {
   margin: 0;
   padding: 0;
+}
+@media (max-width:768px) {
+  html{
+    scroll-padding-top: 100px;
+  }
 }
 `;
 
