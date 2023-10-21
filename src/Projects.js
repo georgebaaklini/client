@@ -11,6 +11,7 @@ const Projects = () => {
             Your browser does not support the video tag.
           </video>
           <div className="project1-description">
+            <h2>Perfect Eleven</h2>
             <p className="project1-text">
               Web application that I created, enabling users to craft their
               ideal soccer teams. It allows users to search from a broad
@@ -20,6 +21,7 @@ const Projects = () => {
               their respective creators as well as replace a player of their
               team with a player from another team.
             </p>
+
             <ul className="project1-tech">
               <li>React.js</li>
               <li>Express.js</li>

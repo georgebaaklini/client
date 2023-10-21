@@ -16,6 +16,7 @@ body, html {
   margin: 0;
   padding: 0;
 }
+
 @media (max-width:768px) {
   html{
     scroll-padding-top: 100px;

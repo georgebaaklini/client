@@ -30,6 +30,12 @@
   max-width: 750px;
 }
 
+.project1-description h2 {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .project1-text {
   font-size: 16px;
 }
