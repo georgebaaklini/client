@@ -60,6 +60,12 @@
   transform: scale(1.1);
 }
 
+@media (max-width: 1024px) {
+  .learn-more {
+    margin-top: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .hero-content {
     flex-direction: column;
@@ -92,11 +98,5 @@
 
   .title {
     font-size: 30px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .learn-more {
-    margin-top: 20px;
   }
 }
