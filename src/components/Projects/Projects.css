@@ -108,6 +108,10 @@
 }
 
 @media (max-width: 1024px) {
+  #projects {
+    margin-top: 50px;
+  }
+
   .project1 {
     flex-direction: column;
     align-items: center;

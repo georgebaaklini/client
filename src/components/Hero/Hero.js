@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import georgepic from "./images/me.png";
+import georgepic from "../../images/me.png";
 import { FaAnglesDown } from "react-icons/fa6";
 
 const Hero = () => {

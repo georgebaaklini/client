@@ -1,5 +1,5 @@
 import "./Header.css";
-import logo from "./images/logo.png";
+import logo from "../../images/logo.png";
 import { FaBars } from "react-icons/fa6";
 import React, { useState } from "react";
 
@@ -15,9 +15,9 @@ const Header = () => {
       <img src={logo} alt="logo" className="logo" />
       <div className="header-content">
         <nav className={showMenu ? "header-nav mobile" : "header-nav"}>
-          <a href="#hero" className="nav-link">
+          <div className="nav-link" onClick={() => window.scrollTo(0, 0)}>
             Home
-          </a>
+          </div>
           <a href="#about" className="nav-link">
             About
           </a>

@@ -7,7 +7,7 @@ const Projects = () => {
         <h1>Projects</h1>
         <div className="project1">
           <video width="720" height="400" controls className="demo">
-            <source src="sitedemo.mp4" type="video/mp4" />
+            <source src="/files/sitedemo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="project1-description">
