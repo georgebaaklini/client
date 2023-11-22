@@ -35,7 +35,7 @@ const About = () => {
 
   function DownloadButton() {
     return (
-      <a href="/GeorgeCV.pdf" download className="download-button">
+      <a href="/files/GeorgeCV.pdf" download className="download-button">
         Download my CV
       </a>
     );
